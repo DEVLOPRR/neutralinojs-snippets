@@ -2,7 +2,7 @@
     "name": "neutralinojs-snippets",
     "displayName": "NeutralinoJs Snippets",
     "description": "Awesome Snippets For Developing NeutralinoJs Apps Faster",
-    "version": "0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.65.0"
     },
