@@ -3,7 +3,7 @@
 	"displayName": "NeutralinoJs Snippets",
 	"description": "Awesome Snippets For Developing NeutralinoJs Apps Faster",
 	"publisher": "NeutralinoJs",
-	"icon": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/bin/resources/icons/appIcon.png",
+	"icon": "images/neutralinojs.png",
 	"version": "0.1.1",
 	"galleryBanner": {
 		"color": "#242526",
