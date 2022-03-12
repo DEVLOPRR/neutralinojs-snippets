@@ -1,2 +1,3 @@
-# neutralinojs-snippets
- Awesome Snippets For Developing NeutralinoJs Apps Faster
+# NeutralinoJs Snippets
+
+Awesome Snippets For Developing NeutralinoJs Apps Faster

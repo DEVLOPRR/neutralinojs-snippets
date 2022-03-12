@@ -1,0 +1,115 @@
+{
+	"Initialise NeutralinoJs": {
+		"prefix": "initApp",
+		"body": "Neutralino.init()$0",
+		"description": "Initialises NeutralinoJs"
+	},
+	"Open A Url": {
+		"prefix": "openUrl",
+		"body": "Neutralino.os.open(\"$1\")$0",
+		"description": "Open A Url in default browser via OS API"
+	},
+	"Exit the application": {
+		"prefix": "exitApp",
+		"body": "Neutralino.app.exit($1)$0",
+		"description": "Exit The Neutralino Application via App API"
+	},
+	"Set Window Title": {
+		"prefix": "setTitle",
+		"body": "Neutralino.app.setTitle(\"$1\")$0",
+		"description": "Set Neutralino Window Title"
+	},
+	"Get Window Title": {
+		"prefix": "getTitle",
+		"body": "Neutralino.app.getTitle(\"$1\")$0",
+		"description": "Get Neutralino Window Title"
+	},
+	"Set LocalStorage Data": {
+		"prefix": "setData",
+		"body": "Neutralino.storage.setData(\"${1:key}\", \"${2:value}\")$0",
+		"description": "Writes Key Value Pairs To Localstorage"
+	},
+	"Get LocalStorage Data": {
+		"prefix": "getData",
+		"body": "Neutralino.storage.getData(\"${1:key}\")$0",
+		"description": "Reads Key Value Pairs From Localstorage"
+	},
+	"Execute A Command And Return The Output": {
+		"prefix": "execCommand",
+		"body": "Neutralino.os.execCommand(\"${1:python --version}\")$0",
+		"description": "Executes A Command And Returns The Output as a string."
+	},
+	"Show A Open File Dialog": {
+		"prefix": "openFileDialog",
+		"body": [
+			"Neutralino.os.showOpenDialog(\"${1:Open A File}\", {",
+			"\tfilters: [",
+			"\t\t{ name: '${2:All files}', extensions: ['${3:*}']},",
+			"\t],",
+			"\tmultiSelections: ${4:false}",
+			"})$0",
+		],
+		"description": "Shows the file open dialog."
+	},
+	"Show A Save File Dialog": {
+		"prefix": "saveFileDialog",
+		"body": [
+			"Neutralino.os.showSaveDialog(\"${1:Select A File}\", {",
+			"\tfilters: [",
+			"\t\t{ name: '${2:All files}', extensions: ['${3:*}']},",
+			"\t],",
+			"\tforceOverwrite: ${4:false}",
+			"})$0",
+		],
+		"description": "Shows the file save dialog."
+	},
+	"Show A Open Folder Dialog": {
+		"prefix": "openFolderDialog",
+		"body": "Neutralino.os.showFolderDialog(\"${1:Select A Folder}\")$0",
+		"description": "Shows the open folder dialog."
+	},
+	"Access App Namespace": {
+		"prefix": "app",
+		"body": "Neutralino.app.$1",
+	},
+	"Access Clipboard Namespace": {
+		"prefix": "clipboard",
+		"body": "Neutralino.clipboard.$1",
+	},
+	"Access Computer Namespace": {
+		"prefix": "computer",
+		"body": "Neutralino.computer.$1",
+	},
+	"Access Debug Namespace": {
+		"prefix": "debug",
+		"body": "Neutralino.debug.$1",
+	},
+	"Access Events Namespace": {
+		"prefix": "events",
+		"body": "Neutralino.events.$1",
+	},
+	"Access Extensions Namespace": {
+		"prefix": "extensions",
+		"body": "Neutralino.extensions.$1",
+	},
+	"Access Filesystem Namespace": {
+		"prefix": "filesystem",
+		"body": "Neutralino.filesystem.$1",
+	},
+	"Access Os Namespace": {
+		"prefix": "os",
+		"body": "Neutralino.os.$1",
+	},
+	"Access Storage Namespace": {
+		"prefix": "storage",
+		"body": "Neutralino.storage.$1",
+	},
+	"Access Updater Namespace": {
+		"prefix": "updater",
+		"body": "Neutralino.updater.$1",
+	},
+	"Access Window Namespace": {
+		"prefix": "window",
+		"body": "Neutralino.Window.$1",
+	},
+}
