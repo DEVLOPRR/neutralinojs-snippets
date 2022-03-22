@@ -4,7 +4,7 @@
 	"description": "Awesome Snippets For Developing NeutralinoJs Apps Faster",
 	"publisher": "DEVLOPRR",
 	"icon": "images/neutralinojs.png",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"galleryBanner": {
 		"color": "#242526",
 		"theme": "dark"
