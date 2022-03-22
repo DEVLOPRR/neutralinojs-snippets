@@ -110,6 +110,6 @@
 	},
 	"Access Window Namespace": {
 		"prefix": "window",
-		"body": "Neutralino.Window.$1",
+		"body": "Neutralino.window.$1",
 	},
 }
